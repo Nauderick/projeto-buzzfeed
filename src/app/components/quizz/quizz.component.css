@@ -1,0 +1,111 @@
+.quizz_container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quizz_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quizz_logo h3 {
+    margin-top: 20px;
+}
+
+.quizz_questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #4224d9;
+    width: 100vw;
+    height: 200px;
+    margin-bottom: 20px;
+
+    background-color: #644ed2;
+
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quizz_options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn-option {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #18ab29;
+    width: 40%;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    margin: 5px;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.btn-option:hover {
+    background-color: #5cbf2a;
+}
+
+.btn-option:active {
+    background-color: #2f6627;
+}
+
+.quizz_results {
+    width: 100vw;
+    height: 350px;
+
+    margin-top: 20px;
+    padding: 30px;
+    
+    background-color: rgb(33, 2, 57);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quizz_results h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.quizz_results p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+.quizz_results button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #18ab29;
+    width: 40%;
+
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    margin-top: 40px;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.quizz_results button:hover {
+    background-color: #5cbf2a;
+}
+
+.quizz_results button:active {
+    background-color: #2f6627;
+}
